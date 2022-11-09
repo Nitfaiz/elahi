@@ -1,0 +1,94 @@
+.loginMain{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    
+}
+.loginSub{
+    background-color: #f2f7f7;
+    padding: 10px;
+    height: 55vh;
+    width: 23vw;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    min-height: auto;
+    min-width: auto;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+.loginh1{
+    color: black;
+
+}
+.logininput{
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.loginbutton{
+    margin: 8px;
+    height: 6vh;
+    width: 7vw;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width: 950px) {
+    .loginSub {
+        width: 150%;
+        height: 51vh;
+        margin-left: -46px;
+
+       
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .loginSub {
+        width: 150%;
+        margin-left: -52px;
+        
+
+       
+    }
+}
+@media screen and (max-width: 950px) {
+    .logininput {
+       
+    margin-top: 0px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .loginh1 {
+       margin-top: 12px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .loginbutton {
+       width: 17vw;
+    }
+}
+.first {
+    color: black;
+    margin-left: -6px;
+}
+.sign_up_link {
+    color: #3f89f8;
+    text-decoration: none;
+}
+/* .second{
+    margin-left: 32px;
+} */
+
+
+
+.MuiOutlinedInput-root {
+    position: relative;
+    border-radius: 4px;
+    height: 6vh;
+}
+
+
